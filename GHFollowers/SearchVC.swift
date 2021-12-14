@@ -9,8 +9,17 @@ import UIKit
 
 class SearchVC: UIViewController {
   
+  // MARK: - Properties
+  
+  let logoImageView = UIImageView()
+  let usernameTextField = GFTextField()
+  let searchButton = GFButton(backgroungColor: .systemGreen, title: "Get Followers")
+  
+  // MARK: - Lifecycle
+  
   override func viewDidLoad() {
     super.viewDidLoad()
-    view.backgroundColor = .systemBlue
+    
+    view.backgroundColor = .systemBackground
   }
 }
