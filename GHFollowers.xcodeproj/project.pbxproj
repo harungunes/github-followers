@@ -19,6 +19,7 @@
 		BEB74A21276E5BCC00EE477A /* GFTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A20276E5BCB00EE477A /* GFTitleLabel.swift */; };
 		BEB74A24276E809D00EE477A /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A23276E809D00EE477A /* GFBodyLabel.swift */; };
 		BEB74A27276E81B800EE477A /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A26276E81B800EE477A /* GFAlertVC.swift */; };
+		BEB74A2B276E8AC500EE477A /* UIViewConroller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		BEB74A20276E5BCB00EE477A /* GFTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTitleLabel.swift; sourceTree = "<group>"; };
 		BEB74A23276E809D00EE477A /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		BEB74A26276E81B800EE477A /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
+		BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 				BEB74A20276E5BCB00EE477A /* GFTitleLabel.swift */,
 				BEB74A23276E809D00EE477A /* GFBodyLabel.swift */,
 				BEB74A26276E81B800EE477A /* GFAlertVC.swift */,
+				BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */,
 			);
 			path = GHFollowers;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE80E5B02769383100B5F7DC /* FavoritesVC.swift in Sources */,
+				BEB74A2B276E8AC500EE477A /* UIViewConroller+Extension.swift in Sources */,
 				BE80E5A92769371800B5F7DC /* SearchVC.swift in Sources */,
 				BE80E5B7276940C300B5F7DC /* GFButton.swift in Sources */,
 				BE80E5922769252200B5F7DC /* AppDelegate.swift in Sources */,
