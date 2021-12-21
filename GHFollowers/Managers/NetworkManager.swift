@@ -9,4 +9,12 @@ import Foundation
 
 class NetworkManager {
   
+  static let shared = NetworkManager()
+  let baseUrl = "https://api.github.com/users/"
+  
+  private init() {}
+  
+  func getFollowers(for username: String, page: Int, completed: @escaping ([Follower]?, String?) -> Void) {
+    let endpoint = baseUrl + "\(username)/followers"
+  }
 }
