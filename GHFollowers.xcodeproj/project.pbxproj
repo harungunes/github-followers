@@ -24,6 +24,7 @@
 		BEB74A24276E809D00EE477A /* GFBodyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A23276E809D00EE477A /* GFBodyLabel.swift */; };
 		BEB74A27276E81B800EE477A /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A26276E81B800EE477A /* GFAlertVC.swift */; };
 		BEB74A2B276E8AC500EE477A /* UIViewConroller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */; };
+		BEE99AFF27765D3A00D3FBBE /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE99AFE27765D3A00D3FBBE /* FollowerCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		BEB74A23276E809D00EE477A /* GFBodyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFBodyLabel.swift; sourceTree = "<group>"; };
 		BEB74A26276E81B800EE477A /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Extension.swift"; sourceTree = "<group>"; };
+		BEE99AFE27765D3A00D3FBBE /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		BE3C788E276E96B10010D3CA /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				BEE99AFD27765D2900D3FBBE /* Cells */,
 				BE80E5B6276940C300B5F7DC /* GFButton.swift */,
 				BE80E5BB2769441200B5F7DC /* GFTextField.swift */,
 				BEB74A20276E5BCB00EE477A /* GFTitleLabel.swift */,
@@ -156,6 +159,14 @@
 			path = GHFollowers;
 			sourceTree = "<group>";
 		};
+		BEE99AFD27765D2900D3FBBE /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BEE99AFE27765D3A00D3FBBE /* FollowerCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -232,6 +243,7 @@
 				BE80E5B7276940C300B5F7DC /* GFButton.swift in Sources */,
 				BE80E5922769252200B5F7DC /* AppDelegate.swift in Sources */,
 				BE3C7886276E95DC0010D3CA /* SearchVC.swift in Sources */,
+				BEE99AFF27765D3A00D3FBBE /* FollowerCell.swift in Sources */,
 				BE3C78E42772A2CC0010D3CA /* ErrorMessage.swift in Sources */,
 				BEB74A27276E81B800EE477A /* GFAlertVC.swift in Sources */,
 				BE3C7894276E9D0F0010D3CA /* Follower.swift in Sources */,
