@@ -41,7 +41,7 @@ class FollowerListVC: UIViewController {
     collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: createThreeColumnFlowLayout())
     view.addSubview(collectionView)
     collectionView.translatesAutoresizingMaskIntoConstraints = false
-    collectionView.backgroundColor = .systemPink
+    collectionView.backgroundColor = .systemBackground
     collectionView.register(FollowerCell.self, forCellWithReuseIdentifier: FollowerCell.reuseID)
   }
   
