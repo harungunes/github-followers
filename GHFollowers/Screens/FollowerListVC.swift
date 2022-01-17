@@ -61,6 +61,13 @@ class FollowerListVC: UIViewController {
           self.hasMoreFollowers = false
         }
         self.followers = followers
+        
+        if self.followers.isEmpty {
+          let message = "This user doesn't have any followers 😞"
+          DispatchQueue.main.async {
+            self.showEmptyStateView(with: message, in: self.view)
+          }
+        }
         self.updateData()
         
       case .failure(let error):
