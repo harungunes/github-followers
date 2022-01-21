@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BE1E1440279605C700D66B5B /* UserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E143F279605C700D66B5B /* UserInfoVC.swift */; };
-		BE1E1449279B214B00D66B5B /* GFUserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E1448279B214B00D66B5B /* GFUserInfoVC.swift */; };
+		BE1E1449279B214B00D66B5B /* GFUserInfoHeaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E1448279B214B00D66B5B /* GFUserInfoHeaderVC.swift */; };
 		BE1E144C279B220A00D66B5B /* GFSecondaryTitleLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1E144B279B220A00D66B5B /* GFSecondaryTitleLabel.swift */; };
 		BE3C7886276E95DC0010D3CA /* SearchVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C7885276E95DC0010D3CA /* SearchVC.swift */; };
 		BE3C7889276E960F0010D3CA /* FavoritesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3C7888276E960F0010D3CA /* FavoritesVC.swift */; };
@@ -35,7 +35,7 @@
 
 /* Begin PBXFileReference section */
 		BE1E143F279605C700D66B5B /* UserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoVC.swift; sourceTree = "<group>"; };
-		BE1E1448279B214B00D66B5B /* GFUserInfoVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoVC.swift; sourceTree = "<group>"; };
+		BE1E1448279B214B00D66B5B /* GFUserInfoHeaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFUserInfoHeaderVC.swift; sourceTree = "<group>"; };
 		BE1E144B279B220A00D66B5B /* GFSecondaryTitleLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFSecondaryTitleLabel.swift; sourceTree = "<group>"; };
 		BE3C7885276E95DC0010D3CA /* SearchVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchVC.swift; sourceTree = "<group>"; };
 		BE3C7888276E960F0010D3CA /* FavoritesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesVC.swift; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				BEB74A26276E81B800EE477A /* GFAlertVC.swift */,
-				BE1E1448279B214B00D66B5B /* GFUserInfoVC.swift */,
+				BE1E1448279B214B00D66B5B /* GFUserInfoHeaderVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -314,7 +314,7 @@
 				BEE99AFF27765D3A00D3FBBE /* FollowerCell.swift in Sources */,
 				BE3C78E42772A2CC0010D3CA /* GFError.swift in Sources */,
 				BEB74A27276E81B800EE477A /* GFAlertVC.swift in Sources */,
-				BE1E1449279B214B00D66B5B /* GFUserInfoVC.swift in Sources */,
+				BE1E1449279B214B00D66B5B /* GFUserInfoHeaderVC.swift in Sources */,
 				BE3C7894276E9D0F0010D3CA /* Follower.swift in Sources */,
 				BEB74A24276E809D00EE477A /* GFBodyLabel.swift in Sources */,
 				BE1E144C279B220A00D66B5B /* GFSecondaryTitleLabel.swift in Sources */,
