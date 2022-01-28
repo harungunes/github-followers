@@ -5,4 +5,17 @@
 //  Created by Harun Gunes on 28/01/2022.
 //
 
-import Foundation
+import UIKit
+
+class GFRepoItemVC: GFItemInfoVC {
+  
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    configureItems()
+  }
+  
+  private func configureItems() {
+    itemOne.set(itemInfoType: .repos, withCount: user.publicRepos)
+    itemTwo.set(itemInfoType: .gists, withCount: user.publicRepos)
+  }
+}
