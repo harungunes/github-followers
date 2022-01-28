@@ -154,6 +154,16 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
+		BE4911F027A4A3F80003F165 /* ItemInfoVCs */ = {
+			isa = PBXGroup;
+			children = (
+				BE575E04279C8423002E1AB6 /* GFItemInfoVC.swift */,
+				BE4911EA27A49E510003F165 /* GFRepoItemVC.swift */,
+				BE4911ED27A4A3490003F165 /* GFFollowerItemVC.swift */,
+			);
+			path = ItemInfoVCs;
+			sourceTree = "<group>";
+		};
 		BE49408C2795F37E00E80C08 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -182,11 +192,9 @@
 		BE49408F2795F3A400E80C08 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				BE4911F027A4A3F80003F165 /* ItemInfoVCs */,
 				BEB74A26276E81B800EE477A /* GFAlertVC.swift */,
 				BE1E1448279B214B00D66B5B /* GFUserInfoHeaderVC.swift */,
-				BE575E04279C8423002E1AB6 /* GFItemInfoVC.swift */,
-				BE4911EA27A49E510003F165 /* GFRepoItemVC.swift */,
-				BE4911ED27A4A3490003F165 /* GFFollowerItemVC.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
