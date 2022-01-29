@@ -48,7 +48,7 @@ class GFItemInfoView: UIView {
       titleLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
       titleLabel.heightAnchor.constraint(equalToConstant: 18),
       
-      countLabel.topAnchor.constraint(equalTo: symbolImageView.bottomAnchor, constant: 4),
+      countLabel.topAnchor.constraint(equalTo: titleLabel.bottomAnchor, constant: 4),
       countLabel.leadingAnchor.constraint(equalTo: self.leadingAnchor),
       countLabel.trailingAnchor.constraint(equalTo: self.trailingAnchor),
       countLabel.heightAnchor.constraint(equalToConstant: 18)
@@ -62,7 +62,7 @@ class GFItemInfoView: UIView {
       titleLabel.text = "Public repos"
     case .gists:
       symbolImageView.image = UIImage(systemName: SFSymbols.gists)
-      titleLabel.text = "gists"
+      titleLabel.text = "Public gists"
     case .followers:
       symbolImageView.image = UIImage(systemName: SFSymbols.followers)
       titleLabel.text = "Followers"

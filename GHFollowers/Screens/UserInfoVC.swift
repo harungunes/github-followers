@@ -19,11 +19,9 @@ class UserInfoVC: UIViewController {
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    
     configureVC()
     layoutUI()
     getUserInfo()
-    
   }
   
   func configureVC() {
@@ -42,6 +40,8 @@ class UserInfoVC: UIViewController {
       case .success(let user):
         DispatchQueue.main.async {
           self.add(childVC: GFUserInfoHeaderVC(user: user), to: self.headerView)
+          self.add(childVC: GFRepoItemVC(user: user), to: self.itemViewOne)
+          self.add(childVC: GFFollowerItemVC(user: user), to: self.itemViewTwo)
         }
       }
     }
@@ -61,11 +61,8 @@ class UserInfoVC: UIViewController {
         item.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: padding),
         item.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -padding),
       ])
-      
     }
-    
-    itemViewOne.backgroundColor = .systemBlue
-    itemViewTwo.backgroundColor = .systemPurple
+
     
     NSLayoutConstraint.activate([
       headerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor),
@@ -82,7 +79,7 @@ class UserInfoVC: UIViewController {
   func add(childVC: UIViewController, to containerView: UIView) {
     addChild(childVC)
     containerView.addSubview(childVC.view)
-    childVC.view.frame = view.bounds
+    childVC.view.frame = containerView.bounds
     childVC.didMove(toParent: self)
   }
   
