@@ -30,6 +30,7 @@ class SearchVC: UIViewController {
   
   override func viewWillAppear(_ animated: Bool) {
     super.viewWillAppear(animated)
+    usernameTextField.text = ""
     navigationController?.setNavigationBarHidden(true, animated: true)
   }
   
@@ -47,6 +48,8 @@ class SearchVC: UIViewController {
       return
     }
     
+    usernameTextField.resignFirstResponder()
+    
     let followerListVC = FollowerListVC()
     followerListVC.username = usernameTextField.text
     followerListVC.title = usernameTextField.text
@@ -56,7 +59,7 @@ class SearchVC: UIViewController {
   func configureLogoImageView() {
     view.addSubview(logoImageView)
     logoImageView.translatesAutoresizingMaskIntoConstraints = false
-    logoImageView.image = UIImage(named: "gh-logo")
+    logoImageView.image = Images.ghLogo
     
     NSLayoutConstraint.activate([
       logoImageView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor, constant: 80),
