@@ -37,6 +37,7 @@ class FollowerListVC: UIViewController {
   private func configure() {
     view.backgroundColor = .systemBackground
     navigationController?.navigationBar.prefersLargeTitles = true
+    title = username
     
     let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(addButtonTapped))
     navigationItem.rightBarButtonItem = addButton
