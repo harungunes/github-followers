@@ -13,22 +13,15 @@ class GFTabBarController: UITabBarController {
     super.viewDidLoad()
     
     UITabBar.appearance().tintColor = .systemGreen
-    viewControllers = [createSearchNavigationController(), createFavoritesNavigationController()]
+    viewControllers = [createNavigationController(to: SearchVC(), title: "Search", tabbarSystemItem: .search, tag: 0), createNavigationController(to: FavoritesVC(), title: "Favorites", tabbarSystemItem: .favorites, tag: 1)]
   }
   
-  func createSearchNavigationController() -> UINavigationController {
-    let searchVC = SearchVC()
-    searchVC.title = "Search"
-    searchVC.tabBarItem = UITabBarItem(tabBarSystemItem: .search, tag: 0)
+  func createNavigationController(to rootVC: UIViewController, title: String, tabbarSystemItem: UITabBarItem.SystemItem, tag: Int) -> UINavigationController {
+    let destinationVC = rootVC
+    destinationVC.title = title
+    destinationVC.tabBarItem = UITabBarItem(tabBarSystemItem: tabbarSystemItem, tag: tag)
     
-    return UINavigationController(rootViewController: searchVC)
+    return UINavigationController(rootViewController: destinationVC)
   }
   
-  func createFavoritesNavigationController() -> UINavigationController {
-    let favoritesVC = FavoritesVC()
-    favoritesVC.title = "Favorites"
-    favoritesVC.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 0)
-    
-    return UINavigationController(rootViewController: favoritesVC)
-  }
 }
