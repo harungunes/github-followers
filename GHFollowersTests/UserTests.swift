@@ -8,7 +8,7 @@
 import XCTest
 @testable import GHFollowers
 
-class UserTest: XCTestCase {
+class UserTests: XCTestCase {
   
   override func setUp() {
     super.setUp()
