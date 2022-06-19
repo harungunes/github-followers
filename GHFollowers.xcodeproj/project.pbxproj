@@ -40,6 +40,7 @@
 		BEB74A27276E81B800EE477A /* GFAlertVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A26276E81B800EE477A /* GFAlertVC.swift */; };
 		BEB74A2B276E8AC500EE477A /* UIViewConroller+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */; };
 		BED700A127B8198500191351 /* GFAlertContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED700A027B8198500191351 /* GFAlertContainerView.swift */; };
+		BEDBB0FE285FBF920060D07C /* FollowerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEDBB0FD285FBF920060D07C /* FollowerTests.swift */; };
 		BEE99AFF27765D3A00D3FBBE /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE99AFE27765D3A00D3FBBE /* FollowerCell.swift */; };
 		BEE99B0327765E3700D3FBBE /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEE99B0227765E3700D3FBBE /* GFAvatarImageView.swift */; };
 /* End PBXBuildFile section */
@@ -91,6 +92,7 @@
 		BEB74A26276E81B800EE477A /* GFAlertVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertVC.swift; sourceTree = "<group>"; };
 		BEB74A2A276E8AC500EE477A /* UIViewConroller+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewConroller+Extension.swift"; sourceTree = "<group>"; };
 		BED700A027B8198500191351 /* GFAlertContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAlertContainerView.swift; sourceTree = "<group>"; };
+		BEDBB0FD285FBF920060D07C /* FollowerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerTests.swift; sourceTree = "<group>"; };
 		BEE99AFE27765D3A00D3FBBE /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
 		BEE99B0227765E3700D3FBBE /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				BE31FD89285CF44300A23152 /* UserTests.swift */,
+				BEDBB0FD285FBF920060D07C /* FollowerTests.swift */,
 			);
 			path = GHFollowersTests;
 			sourceTree = "<group>";
@@ -410,6 +413,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE31FD8A285CF44300A23152 /* UserTests.swift in Sources */,
+				BEDBB0FE285FBF920060D07C /* FollowerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
